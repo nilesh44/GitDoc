@@ -1,0 +1,37 @@
+//retrieve OPERATION
+search and retrieve
+getKey :-  only set of all key present in map 
+values :- return only collection of values
+
+//CHECK OPERATION
+check  and search return boolean
+isEmpty:- this method check weather map is empty or not if map is empty then it return true otherwise it return false
+containsKey:- return true if a particular key was found weather key is associated with null value it does not matter
+containsValue:- return true a value is associated with one or more then one key  weather value is associated with null key it dose not matter
+
+
+
+//INSERT OPERATION
+insert new entry and update a entry for particular key
+put:- insert new entry in the  map
+put all:- insert whole map into map and if it will find duplicate key it will replace old value with new value
+putIfAbsent :- if particular key is not present then and then only add new entry in the map
+computifAbsent:- if key is not present then insert new entry 
+
+//UPDATE OPERATION
+only update  entry
+computIfPresent:- if key is present then update that entry and if key not found do not add that entry and also not throw the exception 
+compute :- if key is present then update that entry and if key not found do not add that entry and throw an exception if key is not found
+
+//DELETE OPERATION
+Remove entry from map
+remove(key) :- it will remove object if matching key is found and return removed object
+remove(key , value):- it will remove object if matching key and value both are find and return true if removed
+
+other method and  functionality:-
+entrySet :-retrieve set of entry ,an entry consist of key and value pair
+
+
+
+
+
