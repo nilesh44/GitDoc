@@ -1,0 +1,19 @@
+search and retrive
+
+
+check  and search return boolean
+isEmpty:- this method check weather map is empty or not if map is empty then it return true otherwise it return false
+containsKey:- return true if a perticular key was found weather key is associated with null value it does not matter
+containsValue:- return ture if a value is associated with one or more then one key  weather value is associated with null key it dose not matter
+
+
+
+
+insert new entry and update a entry for preticular key
+put:-
+computifAbsent:- if key is not present then insert new entry 
+
+only update  entry
+computIfPresent:- if key is present then update that entry and if key not found do not add that entry and also not throw the exception 
+compute :- if key is present then update that entry and if key not found do not add that entry and throw an exception if key is not found
+

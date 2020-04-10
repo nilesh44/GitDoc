@@ -1,0 +1,18 @@
+mvn archetype:generate 
+-DarchetypeArtifactId=maven-archetype-quickstart
+-DinteractiveMode=false 
+-DgroupId=my.package.path 
+-DartifactId=myartifact
+
+mvn archetype:generate
+    -DgroupId=com.ace.group
+    -DartifactId=login
+-DarchetypeVersion=1.2.0-SNAPSHOT
+    -DarchetypeArtifactId=maven-archetype-quickstart
+-DinteractiveMode=false
+
+mvn archetype:generate -DgroupId=com.ace.group -DartifactId=login -DarchetypeVersion=1.2.0-SNAPSHOT  -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+
+maven-archetype-j2ee-simple
+
+mvn archetype:generate -DgroupId=com.ace.group -DartifactId=login -DarchetypeVersion=1.2.0-SNAPSHOT  -DarchetypeArtifactId=maven-archetype-j2ee-simple -DinteractiveMode=false
