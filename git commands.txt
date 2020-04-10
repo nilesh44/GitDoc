@@ -1,0 +1,34 @@
+//initilize git local repository
+E:\git>git init
+
+//before adding file it shows the new file as untrack all file red colour
+git status 
+
+//adding unstack to a Stack
+E:\git>git add .
+
+
+//after adding file it shows the new file as track  all file  green colour
+git status 
+
+//ading changes to local local git repo
+E:\git>git commit -m "adding project"
+
+//adding url with a name it may be origin or other 
+E:\git>git remote add origin https://github.com/gitboy457/SpringBootJpaDemo.git
+
+pushing code on perticular branch and on perticular url
+E:\git>git push -u origin master
+
+git log
+
+git show 7e492ed96facc14c3bbca3661a280938448f9617 --name-only
+
+//to see the remote url of origin name
+git config --get remote.origin.url
+
+syntex git clone https://username:password@github.com/username/repository.git
+e.g
+
+//to reset the remote url of origin name
+git remote set-url origin https://username:password@github.com/nilesh44/MapDemo.git
